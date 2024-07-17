@@ -8,8 +8,8 @@ import POne from './webpage/POne.jsx'
 import PZero from './webpage/PZero.jsx'
 import Energy from './webpage/Energy.jsx'
 const router = createHashRouter([
-  {path:'/', element:<App/>, children:([
-    {path:'/', element:<Home/>},
+  {path:'', element:<App/>, children:([
+    {path:'', element:<Home/>},
   {path:'/energy', element:<Energy/>},
   ])},
   {path:'/project-one', element:<POne/>},
