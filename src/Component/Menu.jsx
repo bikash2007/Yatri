@@ -15,8 +15,8 @@ function Menu({setMenu}) {
             </div>
             <div className="w-full  flex flex-wrap py-14  pr-32 justify-between border-b border-neutral-800 md:gap-2 gap-8 ">
                  <div className="w-full md:w-fit lg:w-1/2 flex flex-col flex-grow gap-8">
-                       <NavLink to={'/projectzero'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>PROJECT ZERO</NavLink>
-                       <NavLink to={'/'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>PROJECT ONE</NavLink>
+                       <NavLink to={'/project-zero'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>PROJECT ZERO</NavLink>
+                       <NavLink to={'/project-one'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>PROJECT ONE</NavLink>
                        <NavLink to={'/'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>ENERGY</NavLink>
                        <NavLink to={'/'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>TEST RIDE</NavLink>
                        <NavLink to={'/'} className={'hover:text-cyan-500 transition-all duration-100 text-3xl lg:text-4xl md:text-[36px] font-normal'}>STORE</NavLink>
